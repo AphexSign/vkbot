@@ -1,14 +1,13 @@
 package ru.yarm.vkbot.Contollers;
 
-import org.springframework.beans.factory.annotation.Value;
+
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 import ru.yarm.vkbot.Model.LongPollServerDto;
 import ru.yarm.vkbot.Model.ResponseDto;
 import ru.yarm.vkbot.Service.ResponseHandlerService;
 
-import java.util.Random;
+
 
 @RestController
 public class SimpleController {
